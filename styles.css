@@ -1,1 +1,69 @@
-/* Write your CSS here! */
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 8px auto;
+    padding: 15px;
+    display: block;
+    font-size: medium;
+    background-color: #CCCCFF;
+}
+
+#mainHeading {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img {
+    width: 400px;
+    height: auto;
+image-rendering: auto;
+}
+
+h1 {
+    font-weight:400;
+}
+
+article {
+    margin: 1.7em 0;
+}
+
+p {
+ text-indent: 10%;
+
+}
+.funParagraph {
+    background-color: green;
+}
+
+.container{
+display: flex;
+align-items: flex-end;
+}
+
+.container img {
+    width: 100%;
+    height:auto;
+    flex-basis: 70%;
+}
